@@ -24,7 +24,7 @@ import {
       palette: {
         type: "dark",
         primary: {
-          main: "#fff",
+          main: "#141414",
         },
       },
     });
