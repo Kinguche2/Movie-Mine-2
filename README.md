@@ -11,7 +11,7 @@ You can do the following with the application:
 * Add movies to a list of favorite movies that appears everytime the page loads
 * Remove movies from the favorites list
 
-[this is the link to the application](https://movie-mine.netlify.app/)
+[this is the link to the application](https://movie-mine-2.netlify.app/)
 
 ## Dependencies
 They are:
