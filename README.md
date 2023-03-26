@@ -1,5 +1,5 @@
 <p lign='center'>
-<img src="logo.png" width='350' alt='accessibility text'></p>
+<img src="public/logo.png" width='350' alt='accessibility text'></p>
 
 ## Description
 Movie Mine is a movie search application that takes in text and displays an array of movies with similar text.
