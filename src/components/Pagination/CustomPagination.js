@@ -2,6 +2,10 @@ import React from "react";
 import Pagination from "@material-ui/lab/Pagination";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
 
+/**
+ * This component makes sure the fetched data from the API are paginated
+ * Also sets the theme and look of each page
+ */
 const darkTheme = createMuiTheme({
   palette: {
     type: "dark",

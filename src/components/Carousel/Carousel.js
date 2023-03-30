@@ -5,6 +5,9 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import { img_300, noPicture } from "../../config/config";
 import "./Carousel.css";
 
+/**
+ * React component for building the actors and actresses gallery
+ */
 const handleDragStart = (e) => e.preventDefault();
 
 const Gallery = ({ id, media_type }) => {

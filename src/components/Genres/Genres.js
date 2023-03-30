@@ -2,6 +2,10 @@ import { Chip } from "@material-ui/core";
 import axios from "axios";
 import { useEffect } from "react";
 
+/**
+ * This component fetches genre content from the API,
+ * Handles removal and addition of user seleted genres
+ */
 const Genres = ({
   selectedGenres,
   setSelectedGenres,

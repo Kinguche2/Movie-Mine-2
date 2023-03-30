@@ -13,6 +13,10 @@ import {
   import CustomPagination from "../../components/Pagination/CustomPagination";
   import SingleContent from "../../components/SingleContent/SingleContent";
   
+  /**
+   * The search page is effectively handled with this component,
+   * Makes two different API calls depending on the content the user clicks on
+   */
   const Search = () => {
     const [type, setType] = useState(0);
     const [searchText, setSearchText] = useState("");

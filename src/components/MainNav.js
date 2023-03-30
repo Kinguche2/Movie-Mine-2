@@ -8,6 +8,10 @@ import SearchIcon from "@material-ui/icons/Search";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 import { useHistory } from "react-router-dom";
 
+/**
+ * Styling to handle the navigation panel appearance
+ * from Material ui
+ */
 const useStyles = makeStyles({
   root: {
     width: "100%",
@@ -23,6 +27,10 @@ export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
   const history = useHistory();
 
+  /**
+   * This hook handles the page clicked on by the user
+   * using history from React router dom
+   */
   useEffect(() => {
     if (value === 0) {
       history.push("/");

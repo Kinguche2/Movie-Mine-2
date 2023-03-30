@@ -8,6 +8,11 @@ import Trending from "./Pages/Trending/Trending";
 import Search from "./Pages/Search/Search";
 import { Container } from "@material-ui/core";
 
+/**
+ * This handles the routing of the application 
+ * Using components from Material ui
+ * The routing is perfomed using React router dom
+ */
 function App() {
   return (
     <BrowserRouter>

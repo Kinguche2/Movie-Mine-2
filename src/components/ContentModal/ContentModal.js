@@ -14,6 +14,10 @@ import { Button } from "@material-ui/core";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import Carousel from "../Carousel/Carousel";
 
+/**
+ * This component creates the Content Modal that pops up when the user clicks
+ * on a movie
+ */
 const useStyles = makeStyles((theme) => ({
   modal: {
     display: "flex",
